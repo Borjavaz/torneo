@@ -53,7 +53,6 @@ import java.util.Random;
                     equipos[i] = equipos[j];
                     equipos[j] = temp;
                 }
-
                 // Mostramos los enfrentamientos (equipos emparejados)
                 System.out.println("Enfrentamientos aleatorios:");
                 for (int i = 0; i < equipos.length; i += 2) {
